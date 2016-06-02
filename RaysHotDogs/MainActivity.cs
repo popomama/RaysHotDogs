@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace RaysHotDogs
 {
-    [Activity(Label = "RaysHotDogs", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "RaysHotDogs", MainLauncher = false, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         int count = 1;
